@@ -3,6 +3,9 @@ package garageServices;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.ejb.Singleton;
+
+@Singleton
 public class Garage implements IGarageLocal,IGarageRemote{
 
 	List<Voiture>list=new ArrayList<Voiture>();

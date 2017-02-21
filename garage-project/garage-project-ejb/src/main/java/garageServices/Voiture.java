@@ -1,6 +1,8 @@
 package garageServices;
 
-public class Voiture {
+import java.io.Serializable;
+
+public class Voiture implements Serializable{
 
 	String matircule;
 	String marque;
